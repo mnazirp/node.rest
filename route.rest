@@ -12,3 +12,14 @@ Content-Type: application/json
     "subscribedToChannel": "The Merciful Servant"
 }
 
+###
+PATCH http://localhost:3000/subscribers/5da9120af1350442b4214e19
+Content-Type: application/json
+
+{
+    "name: "Solmyr 2",
+    "subscribedToChannel": "The Merciful Servant 2"
+}
+
+###
+DELETE http://localhost:3000/subscribers/5da9131ff1350442b4214e1e
