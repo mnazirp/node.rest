@@ -1,0 +1,14 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/5da9138ff1350442b4214e1f
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Solmyr",
+    "subscribedToChannel": "The Merciful Servant"
+}
+
