@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
             message: err.message
         })
     }
-})
+}) 
 
 //Getting by id
 router.get('/:id', getSubscribers, async(req, res) => {
